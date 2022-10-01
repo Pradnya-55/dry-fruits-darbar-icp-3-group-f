@@ -85,14 +85,15 @@ html {
     padding: 10px 30px 10px 30px;
     border: none;
     font-size: 16px;
-    background-color: #4070F4;
+    background-color: #65365a;
     cursor: pointer;
     transition: all 0.3 ease;
     margin: 10px 0;
 }
 
 .buy-btn:hover {
-    background: #265DF2;
+    background:  #800080;
+    
 }
 
 
