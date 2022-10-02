@@ -503,6 +503,7 @@ ion-icon {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 
 .membership-card {
@@ -575,6 +576,27 @@ ion-icon {
 }
 
 
+/* Responsive Site */
+
+@media screen and (max-width:1130px) {
+    .membership-card {
+        width: 300px;
+        margin: 20px 25px;
+        box-shadow: 5px 5px 5px #737373;
+    }
+}
+
+
+@media screen and (max-width:720px) {
+    .membership-card {
+        width: 280px;
+        margin: 10px 25px;
+        box-shadow: 5px 5px 5px #737373;
+    }
+}
+
+
+
 /*-----------------------*/
 /* Categories Section*/
 /*-----------------------*/
@@ -636,15 +658,39 @@ ion-icon {
 
 @media screen and (max-width:899px) {
     .categories-card {
-        width: 120px;
+        width: 180px;
         margin: 30px 15px 10px 15px;
     }
 }
 
-@media screen and (max-width:815px) {
+/* @media screen and (max-width:856px) {
     .categories-card {
-        width: 100px;
+        width: 210px;
         margin: 30px 10px 10px 10px;
+    }
+
+    .categories span {
+        font-size: 85%;
+    }
+
+} */
+
+@media screen and (max-width:850px) {
+    .categories-card {
+        width: 250px;
+        margin: 30px 15px 10px 15px;
+    }
+
+    .categories span {
+        font-size: 85%;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    .categories-card {
+        width: 210px;
+        margin: 30px 15px 10px 15px;
     }
 
     .categories span {
